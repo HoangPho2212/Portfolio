@@ -1,6 +1,6 @@
 // Hiệu ứng gõ chữ (Typing Effect)
 const textElement = document.querySelector('.typing-text');
-const texts = ['IT Student', 'Web Developer in future'];
+const texts = ['an IT Student', 'a Web Developer in future'];
 let count = 0;
 let index = 0;
 let currentText = '';
