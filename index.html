@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web Developer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="#home" class="logo">&lt;Hoang Pho/&gt;</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+        <a href="#contact" class="btn-contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <span class="hero-intro">Hi, my name is</span>
+        <h1 class="hero-name">Nguyen Huu Hoang Pho</h1>
+        <h2 class="hero-role">I'm a <span class="typing-text">IT Student</span></h2>
+        <p class="hero-desc">
+            An IT student passionate about building <span class="accent-text">functional and optimized</span> web
+            applications. I specialize in PHP & MySQL, turning complex logic into smooth, user-friendly experiences.
+        </p>
+        <a href="#projects" class="btn-contact" style="padding: 1rem 2rem;">View my work</a>
+    </section>
+
+    <section id="about">
+        <div class="section-header">
+            <span class="section-subtitle">Introduction</span>
+            <h2 class="section-title">About</h2>
+        </div>
+        <div style="text-align: center; max-width: 700px; margin: 0 auto; color: var(--text-secondary);">
+            <p>
+                I am currently a Computer Science student building my path in Web Development.
+                Unlike senior developers, I may not know everything, but I have a <strong>strong grasp of
+                    fundamentals.</strong> and a <strong style="color: var(--text-color)">"can-do" attitude</strong>.
+                <br><br>
+                I developed <strong>AskUni</strong> to apply what I learned into a real-world scenario. I am
+                detail-oriented, responsible, and always ready to research solutions for any problem I face.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-header">
+            <span class="section-subtitle">My Tech Stack</span>
+            <h2 class="section-title">Technical Skills</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Frontend & UI</h3>
+                <div class="skill-badges">
+                    <div class="badge"><i class="fab fa-html5"></i> HTML5 / CSS3</div>
+                    <div class="badge"><i class="fab fa-js-square"></i> JavaScript (DOM)</div>
+                    <div class="badge"><i class="fas fa-mobile-alt"></i> Responsive Design</div>
+                    <div class="badge"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Backend (PHP)</h3>
+                <div class="skill-badges">
+                    <div class="badge"><i class="fab fa-php"></i> PHP (Core)</div>
+                    <div class="badge"><i class="fas fa-server"></i> RESTful API</div>
+                    <div class="badge"><i class="fas fa-lock"></i> Authentication</div>
+                    <div class="badge"><i class="fas fa-edit"></i> CRUD System</div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Database</h3>
+                <div class="skill-badges">
+                    <div class="badge"><i class="fas fa-database"></i> MySQL</div>
+                    <div class="badge"><i class="fas fa-project-diagram"></i> Database Design</div>
+                    <div class="badge"><i class="fas fa-code"></i> SQL Queries / PDO</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-header">
+            <span class="section-subtitle">Portfolio</span>
+            <h2 class="section-title">Featured Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="img/Recording 2025-12-29 145015.gif" alt="AskUni Demo"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">AskUni - Ask at University</h3>
+                    <p class="project-desc">
+                        A "Stack Overflow" clone designed for university students. This system allows users to register,
+                        ask questions, and vote on answers. Built entirely with vanilla PHP.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/HoangPho2212/AskUni" class="btn-link"><i class="fab fa-github"></i>
+                            Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img class="project-img" src="img/Screenshot 2025-12-29 155327.png" alt=""></img>
+                <div class="project-info">
+                    <h3 class="project-title">Weather App</h3>
+                    <p class="project-desc">"A lightweight web application that allows users to check real-time weather
+                        conditions for any city worldwide. Built to demonstrate proficiency in Vanilla JavaScript and
+                        3rd-party API integration."</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">JS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://js-weather-app-ebon.vercel.app/" class="btn-link"><i
+                                class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/HoangPho2212/Js-Weather-App" class="btn-link"><i
+                                class="fab fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img class="project-img" src="img/Screenshot 2025-12-29 161947.png" alt="homepage of AskUni"></img>
+                <div class="project-info">
+                    <h3 class="project-title">Calculator</h3>
+                    <p class="project-desc">A functional calculator web app capable of performing basic arithmetic
+                        operations. This project demonstrates my understanding of DOM manipulation and CSS Grid Layout.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">JS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ask-uni-75fk.vercel.app/" class="btn-link"><i
+                                class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/HoangPho2212/Cal-Js" class="btn-link"><i class="fab fa-github"></i>
+                            Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-header">
+            <span class="section-subtitle">Contact</span>
+            <h2 class="section-title">Work with me</h2>
+        </div>
+        <div class="contact-container">
+            <p class="contact-text">
+                I am looking for <strong>freelance opportunities</strong> or <strong>internships</strong> to sharpen my
+                skills.
+                If you need someone to build a small website, fix bugs, or support your backend tasks, I would love to
+                help!
+            </p>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hoangpho.221@gmail.com" target="_blank"
+                class="btn-contact">
+                <i class="fas fa-envelope"></i> Send Me Email
+            </a>
+            <div class="social-links">
+                <a href="https://github.com/HoangPho2212"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nguyen-huu-hoang-pho-fgw-dn-b5708b32b/"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Hoang Pho. Coded by me.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
